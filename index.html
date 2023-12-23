@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raindrops & Rainbows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Raindrops & Rainbows !!</h1>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter the city name">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="current-weather-container">
+            <div class="location-container">
+                <h2 id="city-name"></h2>
+                <p id="updated-time"></p>
+            </div>
+            <div class="weather-details">
+                <img id="weather-icon" src="images/weather.jpeg" alt="Weather Icon">
+                <p id="temp"></p>
+                <p id="description"></p>
+            </div>
+        </div>
+        <div class="forecast-container">
+            <h3>5-Day Forecast</h3>
+            <ul id="forecast-list"></ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p><a href="https://github.com/chyash1110/weatherApp" target="_blank">Source Code</a> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
